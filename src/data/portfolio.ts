@@ -107,7 +107,7 @@ export const IMAGES = {
 
 /* ---------------------------- SITE ---------------------------- */
 export const site = {
-  name: "Aakash Rajput",
+  name: "Aakash Rajpoot",
   designation: "Actor | Model | Performer",
   tagline: "Beyond the frame.",
   intro: "An artist. A performer. A storyteller.",
