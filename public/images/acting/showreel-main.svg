@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Placeholder image">
+<defs>
+<radialGradient id="spot" cx="0.20" cy="0.05" r="0.95"><stop offset="0" stop-color="#d9c29a" stop-opacity=".55"/><stop offset=".45" stop-color="#2a251e" stop-opacity=".9"/><stop offset="1" stop-color="#050505"/></radialGradient>
+<linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2b2620"/><stop offset="1" stop-color="#0a0908"/></linearGradient>
+<linearGradient id="rim" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9c29a" stop-opacity=".9"/><stop offset=".5" stop-color="#d9c29a" stop-opacity="0"/></linearGradient>
+<radialGradient id="vig" cx=".5" cy=".5" r=".75"><stop offset=".55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".75"/></radialGradient>
+<filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="81"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .5 0"/></filter>
+<filter id="blur"><feGaussianBlur stdDeviation="9.6"/></filter>
+</defs>
+<rect width="1200" height="800" fill="url(#spot)"/>
+<ellipse cx="662" cy="776" rx="400" ry="56" fill="#d9c29a" opacity=".12" filter="url(#blur)"/>
+<g>
+<path d="M390 800 C390 544 486 416 606 400 L718 400 C838 416 934 544 934 800 Z" fill="url(#body)"/>
+<rect x="634" y="342" width="56" height="128" rx="24" fill="url(#body)"/>
+<ellipse cx="662" cy="288" rx="68" ry="83" fill="url(#body)"/>
+<path d="M594 288 A68 83 0 0 1 662 205" fill="none" stroke="url(#rim)" stroke-width="4.2"/>
+<path d="M390 800 C390 544 486 416 606 400" fill="none" stroke="url(#rim)" stroke-width="4.2"/>
+</g>
+<rect width="1200" height="800" fill="url(#vig)"/>
+<rect width="1200" height="800" filter="url(#grain)" opacity=".16"/>
+<text x="60" y="760" fill="#f3efe6" opacity=".4" font-family="Georgia,serif" font-size="18" letter-spacing="2">PLACEHOLDER · REPLACE WITH YOUR PHOTO</text>
+</svg>
